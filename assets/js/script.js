@@ -15,20 +15,9 @@ window.addEventListener('load', () => {
             idImg_fuego.style.display = fuego;
         };
 
-    idFuego.addEventListener('click', () => {
-        refactorFuncion('none','none','none','block');
-    });
-
-    idAgua.addEventListener('click', () => {
-        refactorFuncion('none','none','block','none');
-    });
-    idTierra.addEventListener('click', () => {
-        refactorFuncion('none','block','none','none');
-    });
-
-    idAire.addEventListener('click', () => {
-        refactorFuncion('block','none','none','none');
-    });
+    idFuego.addEventListener('click', () => {refactorFuncion('none','none','none','block'); });
+    idAgua.addEventListener('click',  () => {refactorFuncion('none','none','block','none'); });
+    idTierra.addEventListener('click',() => {refactorFuncion('none','block','none','none'); });
+    idAire.addEventListener('click',  () => { refactorFuncion('block','none','none','none');});
 });
-
 
